@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, serif;
+}
+h1{
+  margin: 0;
+  font-family: Sacramento, cursive;
+  font-size: 90px;
+  margin : 50px auto 0 auto;
+  color: #BAABDA;
+  line-height: 2;
+}
+h2{
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  color: #BAABDA;
+  font-weight: normal;
+}
+h3{
+  font-family: Montserrat, sans-serif;
+  color: #A982DA;
+}
+a{
+  color: #E04DB0;
+}
+p{
+    line-height: 2;
+}
+hr{
+  border: dotted gray 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.top-container{
+  background-color: #FFF9F9;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+}
+.bottom-container{
+  margin-top: 50px;
+  background-color: #BAABDA;
+
+}
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+}
+.pc-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.art-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me{
+
+}
+.btn {
+  margin: auto;
+  background: #F2C9E1;
+  background-image: -webkit-linear-gradient(top, #F2C9E1, #f5a6d5);
+  background-image: -moz-linear-gradient(top, #F2C9E1, #f5a6d5);
+  background-image: -ms-linear-gradient(top, #F2C9E1, #f5a6d5);
+  background-image: -o-linear-gradient(top, #F2C9E1, #f5a6d5);
+  background-image: linear-gradient(to bottom, #F2C9E1, #f5a6d5);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f76fcc;
+  background-image: -webkit-linear-gradient(top, #f76fcc, #ed96d3);
+  background-image: -moz-linear-gradient(top, #f76fcc, #ed96d3);
+  background-image: -ms-linear-gradient(top, #f76fcc, #ed96d3);
+  background-image: -o-linear-gradient(top, #f76fcc, #ed96d3);
+  background-image: linear-gradient(to bottom, #f76fcc, #ed96d3);
+  text-decoration: none;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
